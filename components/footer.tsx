@@ -8,7 +8,7 @@ function Footer() {
        
          <footer className="bg-black text-white text-center py-4 mt-10">
        <p className="text-sm">
-        &copy; {new Date().getFullYear()} MyFirst . All rights reserved.   Created by Dinesh
+        &copy; {new Date().getFullYear()} MyFirst . All rights reserved.   CCreated by Dinesh
       </p>
      </footer>
     );
