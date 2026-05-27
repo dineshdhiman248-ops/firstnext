@@ -10,7 +10,7 @@ const bannerdata = {
   image:
     "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
 
-  buttonText: "Book Tour",
+  buttonText: "Contact Us",
 };
 
 function Blogpage() {
