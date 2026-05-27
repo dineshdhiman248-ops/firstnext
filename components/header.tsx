@@ -16,6 +16,7 @@ function Header() {
         <nav className="hidden md:flex gap-6">
           <Link href="/">Home</Link>
           <Link href="/blog">Blog</Link>
+           <Link href="/service">Services</Link>
           <Link href="/about">About</Link>
         </nav>
         <button className="md:hidden text-2xl"  onClick={() => setmopen(!mopen)}>☰ </button>
@@ -23,6 +24,7 @@ function Header() {
       {mopen && ( <div className="md:hidden flex flex-col gap-4 px-5 pb-5">
           <Link href="/">Home</Link>
           <Link href="/blog">Blog</Link>
+          <Link href="/service">Services</Link>
           <Link href="/about">About</Link>
         </div>
       )}
